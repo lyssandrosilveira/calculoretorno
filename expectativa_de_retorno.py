@@ -23,7 +23,7 @@ def simulate_value_betting(win_rate, odds, bet_amount, num_simulations):
     return total_bet, total_return, total_wins, returns, profits, expected_value
 
 # Interface do Streamlit
-st.title("Simulação de Apostas")
+st.title("Expectativa de Retorno")
 
 # Entrada dos parâmetros
 win_rate = st.slider("Probabilidade de vitória", 0.0, 1.0, 0.92, 0.01)
